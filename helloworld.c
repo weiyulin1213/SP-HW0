@@ -7,7 +7,7 @@
 int main(){
 	int fd;
 	mode_t mode=S_IRUSR|S_IWUSR;
-	fd=open("./output.txt",O_TRUNC | O_RDWR | O_CREAT,mode);
+	fd=open("./hello world.txt",O_TRUNC | O_RDWR | O_CREAT,mode);
 	if(fd==-1){
 		perror("Open failed");
 		exit(1);
