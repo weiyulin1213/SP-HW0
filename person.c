@@ -1,7 +1,7 @@
 struct Person{
-	char name[ 100];
+	char name;
 	int age;
-	struct Person* friends[];
+	struct Person** friends;
 };
 
 typedef struct Person person_t;
