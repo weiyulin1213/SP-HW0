@@ -1,5 +1,5 @@
 struct Person{
-	char name;
+	char *name;
 	int age;
 	struct Person** friends;
 };
